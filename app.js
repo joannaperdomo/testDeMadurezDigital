@@ -402,7 +402,7 @@
                             ${q.value !== null ? '<span class="text-[10px] text-emerald-600 font-bold flex items-center gap-0.5">✓ Contestada</span>' : '<span class="text-[10px] text-slate-400 font-semibold">• Pendiente</span>'}
                         </div>
                     </div>
-                    <h3 class="text-sm font-extrabold text-blip-navy">${q.text}</h3>
+                    <h3 class="text-sm font-bold text-blip-navy">${q.text}</h3>
                     
                     ${q.tip ? `
                     <div class="bg-indigo-50/40 rounded-xl p-3 border border-indigo-100/50 text-[11px] text-indigo-950 flex gap-2">
