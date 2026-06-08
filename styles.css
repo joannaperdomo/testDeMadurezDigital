@@ -1,0 +1,170 @@
+/* =============================================
+   CARBONA FONT FACE DECLARATIONS
+   Archivos en: assets/fuentes/
+   ============================================= */
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-ExtraLight.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-ExtraLightSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-ExtraLightSlanted.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-Light.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-LightSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-LightSlanted.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-Regular.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-RegularSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-RegularSlanted.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-Medium.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-MediumSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-MediumSlanted.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-SemiBold.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-SemiBoldSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-SemiBoldSlanted.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-Bold.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-BoldSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-BoldSlanted.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-ExtraBold.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-ExtraBoldSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-ExtraBoldSlanted.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-Black.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carbona';
+    src: url('assets/fuentes/Carbona-BlackSlanted.woff2') format('woff2'),
+         url('assets/fuentes/Carbona-BlackSlanted.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* =============================================
+   BASE
+   ============================================= */
+
+body {
+    font-family: 'Carbona', sans-serif;
+}
+
+/* =============================================
+   IMPRESIÓN / EXPORTAR PDF
+   ============================================= */
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    .print-only {
+        display: block !important;
+    }
+    body {
+        background: white !important;
+        color: #050c1e !important;
+        overflow: visible !important;
+    }
+    .print-card {
+        border: 1px solid #e2e8f0 !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+}
+
+.print-only {
+    display: none;
+}
